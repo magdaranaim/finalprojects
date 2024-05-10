@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="FEEDBACK CSS.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav">
+                <li><a href="BUY.html" class="btn">ABOUT</a></li>
+                <li><a href="CONCEPT.html" class="btn">CONCEPT</a></li>
+                <li><a href="WEBSITE PROJECT.html" class="btn">HOME</a></li>
+                <li><a href="CONTACT.html" class="btn">CONTACT</a></li>
+                <li><a href="FEEDBACK.html" class="btn">FEEDBACK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="feedback-form">
+        <h1>Feedback Form</h1>
+        <form action="submit_feedback.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; All rights reserved | Underbone King Garage</p>
+    </footer>
+</body>
+</html>
